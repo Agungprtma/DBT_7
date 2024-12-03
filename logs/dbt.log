@@ -1,0 +1,42 @@
+[0m13:09:22.113750 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002343E7F2B70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002343E7F29F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002343E7F22D0>]}
+
+
+============================== 13:09:22.119403 | e7b7d3c0-565e-40b2-862f-156b64601e79 ==============================
+[0m13:09:22.119403 [info ] [MainThread]: Running with dbt=1.8.9
+[0m13:09:22.120409 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\prata\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt init', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:09:45.503557 [debug] [MainThread]: Starter project path: C:\dibimbing\pert-9\venv\Lib\site-packages\dbt\include\starter_project
+[0m13:09:45.530722 [info ] [MainThread]: 
+Your new dbt project "dibimbing" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:09:45.530722 [info ] [MainThread]: Setting up your profile.
+[0m13:13:27.920055 [info ] [MainThread]: Profile dibimbing written to C:\Users\prata\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:13:27.922093 [debug] [MainThread]: Command `dbt init` succeeded at 13:13:27.922093 after 245.93 seconds
+[0m13:13:27.923600 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002343E56F200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234575BF9B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002343E7407D0>]}
+[0m13:13:27.924569 [debug] [MainThread]: Flushing usage events
+[0m13:46:15.071804 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000149D11BF740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000149CEA48920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000149D0F50080>]}
+
+
+============================== 13:46:15.076309 | 4c946c6c-b93a-405c-85db-2195cb014e8f ==============================
+[0m13:46:15.076309 [info ] [MainThread]: Running with dbt=1.8.9
+[0m13:46:15.076813 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\prata\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:46:15.077819 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\dibimbing\pert-9\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:46:15.079399 [debug] [MainThread]: Command `dbt run` failed at 13:46:15.079399 after 0.11 seconds
+[0m13:46:15.079399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000149D11BF740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000149D190A810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000149D19095E0>]}
+[0m13:46:15.080434 [debug] [MainThread]: Flushing usage events
